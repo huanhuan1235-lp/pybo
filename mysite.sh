@@ -1,3 +1,4 @@
 #!/bin/bash
-cd /workspace/box22/projects/mysite
-source /venvs/mysite/bin/activate
+cd ~/projects/mysite
+export DJANGO_SETTINGS_MODULE=config.settings.prod
+. ~/venvs/mysite/bin/activate
